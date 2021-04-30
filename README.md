@@ -1,10 +1,10 @@
 # Automobile Seat Heating App
 
 ## Components
-	* Temperature Enable- Push Button(PB3): Active Low
-	* Seat Occupied Enable- Push Button(PB4): Active Low
-	* LED Actuator
-		* If Seat Occupied and Temperature enable Turn LED(PB5) ON
+* Temperature Enable- Push Button(PB3): Active Low
+* Seat Occupied Enable- Push Button(PB4): Active Low
+* LED Actuator
+	* If Seat Occupied and Temperature enable Turn LED(PB5) ON
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
