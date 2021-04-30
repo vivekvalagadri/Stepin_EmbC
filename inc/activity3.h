@@ -1,6 +1,6 @@
 /**
  * @defgroup   ACTIVITY3 activity 3
- *
+ * @file
  * @brief      This file implements activity 3.
  *
  * @author     Vivek
@@ -19,7 +19,7 @@ void PwmConfig();
 /**
  * @brief      sets Pwm Value
  *
- * @param[in]  num   The number
+ * @param[in]  num   the value of the adc used to set pwm value
  */
 void PwmSet(uint16_t num);
 #endif
