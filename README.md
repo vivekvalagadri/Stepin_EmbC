@@ -8,7 +8,7 @@
 
 `If Seat Occupied and Temperature enable`
 
-* Turn LED ON--Read ADC Value--Set PWM Value based on ADC Value--Send it to dashboard via UART
+* Turn LED ON--Read ADC Value--Set PWM Value based on ADC Value--Send temperature value to dashboard via UART
 	* LED Actuator(PB5)
 	* ADC Channel 0 (AC0)
 	* PWM PIN (PD6)
