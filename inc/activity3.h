@@ -12,5 +12,14 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
-
+/**
+ * @brief      Configures PWM Port
+ */
+void PwmConfig();
+/**
+ * @brief      sets Pwm Value
+ *
+ * @param[in]  num   The number
+ */
+void PwmSet(uint16_t num);
 #endif

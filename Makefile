@@ -17,6 +17,8 @@ ifdef OS	# All configurations for Windwos OS
    CC = avr-gcc.exe
 # Name of the elf to hex file converter used
    AVR_OBJ_CPY = avr-objcopy.exe
+#RM for delete
+   RM= del /q
 else #All configurations for Linux OS
    ifeq ($(shell uname), Linux)
 # Correct the path based on OS
@@ -24,7 +26,9 @@ else #All configurations for Linux OS
 # Name of the compiler used
 	  CC = avr-gcc
 # Name of the elf to hex file converter used
-	  AVR_OBJ_CPY = avr-objcopy 
+	  AVR_OBJ_CPY = avr-objcopy
+#RM for delete
+   RM= rm -rf 
    endif
 endif
 
@@ -54,5 +58,5 @@ flash:
 
 clean:
 # Remove all the build files and generated document files
-	rm -rf $(call FixPath,$(BUILD_DIR)/*)
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
 	make -C documentation clean
