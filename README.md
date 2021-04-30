@@ -1,10 +1,15 @@
 # Automobile Seat Heating App
 
 ## Components
-* Temperature Enable- Push Button(PB3): Active Low
-* Seat Occupied Enable- Push Button(PB4): Active Low
-* LED Actuator
-	* If Seat Occupied and Temperature enable Turn LED(PB5) ON
+* Temperature Enable
+	* Push Button(PB3): Active Low
+* Seat Occupied Enable
+	* Push Button(PB4): Active Low
+`If Seat Occupied and Temperature enable`
+* Turn LED ON--Read ADC Value--Set PWM Value based on ADC Value--Send it to dashboard via UART
+	* LED Actuator(PB5)
+	* ADC Channel 0 (AC0)
+	* PWM PIN (PD6)
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
