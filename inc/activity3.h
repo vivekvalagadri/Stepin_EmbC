@@ -1,7 +1,7 @@
 /**
  * @defgroup   ACTIVITY3 activity 3
  * @file
- * @brief      This file implements activity 3.
+ * @brief      This file implements Pulse Width Modulation.
  *
  * @author     Vivek
  * @date       2021

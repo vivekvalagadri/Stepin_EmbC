@@ -1,7 +1,7 @@
 /**
  * @defgroup   ACTIVITY2 activity 2
  * @file
- * @brief      This file implements activity 2.
+ * @brief      This file implements ADC interface
  *
  * @author     Vivek
  * @date       2021

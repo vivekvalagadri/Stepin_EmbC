@@ -1,7 +1,7 @@
 /**
  * @defgroup   ACTIVITY1 activity 1
  * @file
- * @brief      This file implements activity 1.
+ * @brief      This file implements Led Actuator 
  *
  * @author     Vivek
  * @date       2021

@@ -1,1 +1,1 @@
-@mainpage SeatHeaterAPP by Vivek V @subpage SeatHeatingApp.c
+@mainpage Seat Heater App by Vivek V @subpage SeatHeatingApp.c

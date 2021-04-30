@@ -1,6 +1,18 @@
+/**
+ * @file SeatHeatingApp.c
+ * @author Vivek.V ()
+ * @brief SeatHeating app for an automobile system
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include "./inc/activity1.h"
 #include "./inc/activity2.h"
 #include "./inc/activity3.h"
+#include "./inc/activity4.h"
 
 int main(){
 	//configure PWM Pin to PD6
