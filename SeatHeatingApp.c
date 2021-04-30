@@ -35,14 +35,14 @@ int main(){
 				USARTWriteChar('\n');
 			}
 			else if(temp>200 && temp <=500){
-				PwmSet(102); //set pwm with 20% duty cycle
+				PwmSet(102); //set pwm with 40% duty cycle
 				USARTWriteChar('2');
 				USARTWriteChar('5');
 				USARTWriteChar('C');
 				USARTWriteChar('\n');
 			}
 			else if(temp>500 && temp <=700){
-				PwmSet(179); //set pwm with 40% duty cycle
+				PwmSet(179); //set pwm with 70% duty cycle
 				USARTWriteChar('2');
 				USARTWriteChar('9');
 				USARTWriteChar('C');
