@@ -21,5 +21,5 @@ void PwmConfig();
  *
  * @param[in]  num   the value of the adc used to set pwm value
  */
-void PwmSet(uint16_t num);
+void PwmSet(uint8_t num);
 #endif
