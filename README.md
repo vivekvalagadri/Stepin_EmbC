@@ -7,6 +7,7 @@
 	* Push Button(PB4): Active Low
 
 `If Seat Occupied and Temperature enable`
+
 * Turn LED ON--Read ADC Value--Set PWM Value based on ADC Value--Send it to dashboard via UART
 	* LED Actuator(PB5)
 	* ADC Channel 0 (AC0)
